@@ -1,0 +1,8 @@
+from deferred import *
+
+@inline
+def test1(self):
+    return stuff
+
+def main(self):
+    m = yield test1()
